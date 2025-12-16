@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compare Quran API Scripts & Fonts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Font Face Definitions */
+      @font-face {
+        font-family: 'qpc-hafs';
+        src: url('https://static-cdn.tarteel.ai/qul/fonts/UthmanicHafs_V22.ttf') format('truetype');
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'me';
+        src: url('https://static-cdn.tarteel.ai/qul/fonts/me_quran_volt_newmet.ttf') format('truetype');
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'qpc-nastaleeq';
+        src: url('https://static-cdn.tarteel.ai/qul/fonts/nastaleeq/KFGQPCNastaleeq-Regular.ttf') format('truetype');
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'indopak-nastaleeq';
+        src: url('https://static-cdn.tarteel.ai/qul/fonts/nastaleeq/Hanafi/normal-v4.2.2/with-waqf-lazmi/font.ttf') format('truetype');
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'digitalkhaat-v2';
+        src: url('https://static-cdn.tarteel.ai/qul/fonts/dk/DigitalKhattV2.otf') format('opentype');
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'digitalkhaat';
+        src: url('https://static-cdn.tarteel.ai/qul/fonts/dk/DigitalKhattQuranicV1.otf') format('opentype');
+        font-display: swap;
+      }
+
+      /* Basic resets for Tajweed elements to ensure they display inline properly */
+      tajweed {
+        display: inline;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50 text-slate-800 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
