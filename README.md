@@ -2,6 +2,8 @@
 
 A React application designed to help users compare different Quranic script styles (Uthmani, Indopak, Imlaei) and render them using various digital fonts. This tool utilizes the [Quran.com API (v4)](https://quran.api-docs.io/v4) to fetch verse data.
 
+Deployed Tool: https://saci.blog/tools/compare-quran-scripts/
+
 ## Features
 
 - **Script Comparison**: View multiple script types side-by-side:
